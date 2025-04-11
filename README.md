@@ -2,6 +2,10 @@
 
 A fullstack application built using the **MERN** stack (MongoDB, Express.js, React, Node.js) to track job applications for students. The app allows users to add job applications, update statuses, filter by date/status, and delete entries. The project is deployed on **Vercel** (Frontend), **Render** (Backend), and uses **MongoDB Atlas** for data storage.
 
+## Live Links
+- 🔗 **Frontend**: [https://student-job-tracker-ten-navy.vercel.app/](https://student-job-tracker-ten-navy.vercel.app/)
+- 🔗 **Backend**: [https://student-job-tracker-3vla.onrender.com](https://student-job-tracker-3vla.onrender.com)
+
 ## Features
 - **Add Job Application**: Users can add new job applications with details like Company, Role, Status, Date of Application, and Link.
 - **List All Applications**: All applications are displayed in a clean, responsive layout.
