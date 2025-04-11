@@ -7,7 +7,7 @@ const cors = require("cors");
 const port = process.env.PORT || 8000;
 const Job = require("./models/job.model");
 app.use(cors({
-  origin: 'http://localhost:5173', // or whatever your frontend URL is
+  origin: 'https://student-job-tracker-ten-navy.vercel.app', // or whatever your frontend URL is
   credentials: true
 }));
 
