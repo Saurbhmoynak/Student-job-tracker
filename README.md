@@ -1,4 +1,4 @@
-![Screenshot 2025-04-12 100004](https://github.com/user-attachments/assets/db6676b7-b9c7-41f3-ba27-766ee61c9450)# Student Job Tracker Web App
+# Student Job Tracker Web App
 
 A fullstack application built using the **MERN** stack (MongoDB, Express.js, React, Node.js) to track job applications for students. The app allows users to add job applications, update statuses, filter by date/status, and delete entries. The project is deployed on **Vercel** (Frontend), **Render** (Backend), and uses **MongoDB Atlas** for data storage.
 
@@ -219,12 +219,6 @@ Update the status of a job application.
 
 ### 4. `DELETE /api/jobs/:id`
 Delete a job application.
-
----
-
-## Screenshots
-
-Include screenshots or gifs of the app here to showcase its functionality.
 
 ---
 
