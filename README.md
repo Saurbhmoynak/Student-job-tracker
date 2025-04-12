@@ -6,12 +6,77 @@ A fullstack application built using the **MERN** stack (MongoDB, Express.js, Rea
 - 🔗 **Frontend**: [https://student-job-tracker-ten-navy.vercel.app/](https://student-job-tracker-ten-navy.vercel.app/)
 - 🔗 **Backend**: [https://student-job-tracker-3vla.onrender.com](https://student-job-tracker-3vla.onrender.com)
 
-## Features
-- **Add Job Application**: Users can add new job applications with details like Company, Role, Status, Date of Application, and Link.
-- **List All Applications**: All applications are displayed in a clean, responsive layout.
-- **Filter Applications**: Users can filter applications by status or date of application.
-- **Update Status**: Users can update the status of a job application (e.g., Applied, Interview, Offer, Rejected).
-- **Delete Application**: Users can delete a job application with confirmation.
+# 🎓 Student Job Tracker (MERN Stack)
+
+The **Student Job Tracker** is a full-stack web application built with the **MERN stack (MongoDB, Express.js, React.js, Node.js)**. This application helps students efficiently track their job applications with features like add, update, delete, filtering, and a clean, responsive UI.
+
+---
+
+## 🚀 Features
+
+### 🏠 Main Page
+- Displays all job applications in an organized **card format**.
+- Shows job **title**, **company name**, **status**, and **application date**.
+- Options to **view**, **edit**, or **delete** each job.
+![Screenshot 2025-04-12 095900](https://github.com/user-attachments/assets/11ef2b77-9170-4740-9e7e-8709be0db4fa)
+
+---
+
+### ➕ Add New Job Application
+- Click on the **"Add New"** button to open a modal form.
+- Fill in details:
+  - **Job Title**
+  - **Company**
+  - **Location**
+  - **Status**
+  - **Date Applied**
+- Submit the form to save the new job entry.
+- ✅ **Toast notification** confirms successful addition.
+- Job appears immediately in the list.
+
+---
+
+### 🔁 Update Job
+- Click the **Edit** icon on any job card.
+- The modal is pre-filled with existing data.
+- Make changes and click **Update**.
+- ✅ **Real-time UI update** and confirmation via toast.
+- No need to reload the page.
+
+---
+
+### 🗑️ Delete Job (with Confirmation)
+- Click the **Delete** icon on a job card.
+- A confirmation modal pops up with **Yes/No** options.
+- Clicking "Yes" permanently deletes the job.
+- ✅ Toast feedback confirms deletion.
+
+---
+
+### 🧪 Filter by Status
+Use the status dropdown to filter job applications by:
+- Not Applied
+- Applied
+- Interview
+- Offer
+- Rejected
+
+---
+
+### 📅 Filter by Date or Range
+- Use the **Date Picker** to filter jobs:
+  - Applied on a **specific date**.
+  - Applied within a **custom date range**.
+
+---
+
+## 📱 Responsive Design
+
+- Fully responsive layout — optimized for **desktop**, **tablet**, and **mobile**.
+- Interactive and modern UI with:
+  - Modals for Add/Edit
+  - Tooltips
+  - Smooth transitions
 
 ## Tech Stack
 - **Frontend**: React.js (with Hooks)
