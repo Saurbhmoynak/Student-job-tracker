@@ -1,4 +1,4 @@
-# Student Job Tracker Web App
+![Screenshot 2025-04-12 100004](https://github.com/user-attachments/assets/db6676b7-b9c7-41f3-ba27-766ee61c9450)# Student Job Tracker Web App
 
 A fullstack application built using the **MERN** stack (MongoDB, Express.js, React, Node.js) to track job applications for students. The app allows users to add job applications, update statuses, filter by date/status, and delete entries. The project is deployed on **Vercel** (Frontend), **Render** (Backend), and uses **MongoDB Atlas** for data storage.
 
@@ -30,18 +30,25 @@ The **Student Job Tracker** is a full-stack web application built with the **MER
   - **Location**
   - **Status**
   - **Date Applied**
+![Screenshot 2025-04-12 100158](https://github.com/user-attachments/assets/48bcb54c-231a-4f83-b2d7-c52ff770749a)
+
 - Submit the form to save the new job entry.
 - ✅ **Toast notification** confirms successful addition.
 - Job appears immediately in the list.
-
+![Screenshot 2025-04-12 100219](https://github.com/user-attachments/assets/e31639a1-91d5-430a-8afb-312dea86ebe3)
 ---
 
 ### 🔁 Update Job
 - Click the **Edit** icon on any job card.
 - The modal is pre-filled with existing data.
 - Make changes and click **Update**.
+
+![Screenshot 2025-04-12 100313](https://github.com/user-attachments/assets/68998d20-a9ff-449c-82bb-afd59974dfe0)
+
 - ✅ **Real-time UI update** and confirmation via toast.
 - No need to reload the page.
+  
+![Screenshot 2025-04-12 100322](https://github.com/user-attachments/assets/3dab8cf5-59b5-4de3-93be-f628a9e06b62)
 
 ---
 
@@ -50,16 +57,25 @@ The **Student Job Tracker** is a full-stack web application built with the **MER
 - A confirmation modal pops up with **Yes/No** options.
 - Clicking "Yes" permanently deletes the job.
 - ✅ Toast feedback confirms deletion.
+![Screenshot 2025-04-12 100411](https://github.com/user-attachments/assets/6aaeabf3-f515-41c1-895a-f6639302e810)
 
 ---
 
 ### 🧪 Filter by Status
 Use the status dropdown to filter job applications by:
 - Not Applied
+  ![Screenshot 2025-04-12 100004](https://github.com/user-attachments/assets/66447b55-c288-46bf-992f-87a9a16d5e03)
+  
 - Applied
+  ![Screenshot 2025-04-12 100026](https://github.com/user-attachments/assets/542f15ea-a784-4c95-8b7f-a529650c8621)
+
 - Interview
-- Offer
+  ![Screenshot 2025-04-12 100048](https://github.com/user-attachments/assets/b33a250b-041b-4708-abd2-bd23ab8b9fa0)
+
 - Rejected
+  ![Screenshot 2025-04-12 100055](https://github.com/user-attachments/assets/964c52b6-75f4-4c57-be8a-73fbfb8669fa)
+  
+- Offer
 
 ---
 
@@ -67,7 +83,7 @@ Use the status dropdown to filter job applications by:
 - Use the **Date Picker** to filter jobs:
   - Applied on a **specific date**.
   - Applied within a **custom date range**.
-
+![Screenshot 2025-04-12 100342](https://github.com/user-attachments/assets/fa9b8d25-a247-4483-b97b-b338c18aca74)
 ---
 
 ## 📱 Responsive Design
@@ -77,6 +93,11 @@ Use the status dropdown to filter job applications by:
   - Modals for Add/Edit
   - Tooltips
   - Smooth transitions
+<div style="display: flex; justify-content: space-between;">
+  <img src="https://github.com/user-attachments/assets/a50af51c-b96b-4fc9-8069-fce9758f7a1f" alt="App Image 1" width="45%" />
+  <img src="https://github.com/user-attachments/assets/7a00c657-396d-46d2-a686-cb1ed1a9917d" alt="App Image 2" width="45%" />
+</div>
+
 
 ## Tech Stack
 - **Frontend**: React.js (with Hooks)
